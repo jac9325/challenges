@@ -1,0 +1,25 @@
+H1{
+  text-align: center;
+  color:slateblue;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+.pokemon{
+    color:teal;
+    margin-left:100px;
+    min-width: 250px;
+    padding-right: 20px;
+    margin-right: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: rgba(244, 122, 0,0.2);
+    border-radius: 15px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
