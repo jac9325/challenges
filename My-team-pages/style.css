@@ -1,0 +1,154 @@
+#grupo-1{
+    display: flex;
+    flex-direction: row;
+    /* flex-flow: row wrap; */
+    margin: 50px 0;
+    flex-wrap: wrap;
+}
+.title{
+    display: flex;
+    font-family: 'PT Serif';
+    font-weight: 700;
+    font-size: 2rem;
+    font-style: normal;
+    line-height: 47.7px;
+    color:#000;
+    height: 47px;
+    width: 278px;
+    letter-spacing: -0.045em;
+
+}
+.sub-grupo{
+    display: flex;
+    flex-direction: column;
+}
+.subtitle{
+    display: flex;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 27px;
+    width: 150px;
+}
+.parrafo{
+    display: flex;
+    width: 439px;
+    font-family: 'Poppins';
+    font-style: 'normal';
+    font-weight: 'normal';
+    font-size: 18px;
+    line-height: 27px;
+
+}
+
+.group-2{
+    
+    display: flex;
+    /* position: inherit; */
+    /* align-content: center; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* margin-top: 30px; */
+    /*max-width: 80%;*/
+    
+    align-items: flex-start;
+    margin: auto;
+}
+#grupo-3{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px
+}
+.categoria{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    display: flex;
+    align-self: flex-start;
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+}
+.div-subgrupo{
+    display: flex;
+    flex-direction: row;
+    max-width: 250px;
+    max-height: 390px;
+    padding:10px
+}
+
+
+img{
+    max-width: 230px;
+    height: 350px;
+}
+.name{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    margin-left: 8px;
+}
+.pie-pagina{
+    height: 17px;
+    width: 287px;
+    left: 547px;
+    top: 1448px;
+    border-radius: undefinedpx;
+}
+#gr-2{
+    margin-top: 150px;
+    /*margin-bottom: 150px;*/
+}
+
+#gr-4{
+    margin-top: -100px;
+}
+
+#gr-6{
+    margin-top:-100px;
+}
+
+.div-imagen{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+@media (max-width: 991.98px) { 
+#gr-4{
+    margin-top: 10px;
+    }
+#gr-6{
+    margin-top:10px;
+    }
+#gr-3{
+    margin-top:-150px;
+    }
+    #gr-5{
+        margin-top:-150px;
+        }
+        
+.container-xl{
+    display:flex;
+    flex-wrap: wrap;
+}
+}
+@media (max-width: 575.98px) { 
+    .img-fluid{
+        max-width: 220px;
+    }
+}
+
+
+
